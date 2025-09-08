@@ -5,7 +5,7 @@
 	$nota2 = 7;
 	$nota3 = 1;
 	$nota4 = 3;
-	$media = ($nota1+$nota2+$nota3+$nota4)/4;
+	$media = $nota1+$nota2+$nota3+$nota4/4;
 
 	echo '<b>Aluno: </b> '.$aluno.'<br>';
 	echo '<b>Nota 1: </b> '.$nota1.'<br>';
